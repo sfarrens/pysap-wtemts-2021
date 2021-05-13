@@ -1,4 +1,5 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sfarrens/pysap-wtemts-2021/Hand-OnPySAP.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sfarrens/pysap-wtemts-2021/blob/main/Hand-OnPySAP.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sfarrens/pysap-wtemts-2021/HEAD?filepath=Hand-OnPySAP.ipynb)
 
 # Hand-On Image Processing with PySAP
 
@@ -58,3 +59,5 @@ $ docker run -p 8888:8888 -v ${PWD}:/home ceacosmic/pysap
 ```
 
 This will run launch Jupyter notebook as usual where you have access to your current working directory but using a Docker container as the backend.
+
+Alternatively, this notebook can be run remotely using either Google Colab or Binder (see badges above).
