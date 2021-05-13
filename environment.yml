@@ -1,0 +1,10 @@
+name: pysap
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - jupyter==1.0.0
+  - cmake
+  - pip
+  - pip:
+    - python-pysap==0.0.5

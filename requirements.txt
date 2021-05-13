@@ -1,2 +1,0 @@
-python-pysap==0.0.5
-jupyter
