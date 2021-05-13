@@ -5,6 +5,8 @@ dependencies:
   - python=3.8
   - jupyter==1.0.0
   - cmake
+  - mesa-libgl-cos6-x86_64
   - pip
   - pip:
     - python-pysap==0.0.5
+    - tabulate
