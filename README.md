@@ -18,15 +18,31 @@ Throughout the session I will endeavour to provide some basic technical backgrou
 
 Finally, I will reserve a few minutes at the end to explain how you can contribute to the development of PySAP.
 
-## Installation
+## Set Up
+
+### Requirements
+
+In order to follow this hands-on tutorial you need to have the following packages installed.
+
+1. [PySAP](https://github.com/CEA-COSMIC/pysap)
+1. [Jupyter](https://jupyter.org/)
+1. [tablulate](https://github.com/astanin/python-tabulate)
+
+Details on how install PySAP are provided below, the others can be installed as follows.
+
+```bash
+$ pip install jupyter tabulate
+```
+
+> Here `$` represents your terminal prompt.
+
+### PySAP Installation
 
 If you are on a computer running Linux or macOS with Python >= 3.6 then it should be as simple as
 
 ```bash
 $ pip install python-pysap
 ```
-
-> Here `$` represents your terminal prompt.
 
 this should install the full PySAP suite along with all the required dependencies. Note that if you install the macOS 10.15 wheel you will also need to manually install PyQT5 and the PySAP plug-ins.
 
